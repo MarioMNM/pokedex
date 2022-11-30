@@ -69,6 +69,7 @@ class Pokedex:
             self.poke_image.image = None
             self.poke_information.config(text="")
             self.poke_types.config(text="")
+            self.poke_image.config(image="")
 
             pokemon = self.text_id_name.get(1.0, "end-1c")
 
